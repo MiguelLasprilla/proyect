@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Formulario fotografico</title>
+    <link rel="stylesheet" href="encuesta.css">
+</head>
+<body>
+    <section id="hero">
+    </section>
+
+    <form action="" method="get"></form>
+
+    <p>
+        <h3>¿Cual es tu nombre?</h3>: <input type="text" name="nombre" maxlength="50" />
+    </p>
+
+    <p>
+        <h3>¿Cual es tu apellido?</h3>: <input type="text" name="apellidos" maxlength="50" />
+    </p>
+
+    <p><h3>¿Cual es tu sexo?</h3>: <input type="radio" name="sexo" value="h" /> Hombre <input
+        type="radio" name="sexo" value="m" /> Mujer 
+    </p>
+
+    <p>
+        <h3>Correo</h3>: <input type="text" name="correo" maxlength="100" />
+    </p>
+
+    <form><label for="Tipo de juegos"><h3>Población</h3>:</label>
+        <select name="poblacion" id="poblacion">
+            <option>Chiriquí</option>
+            <option>Darién</option>
+            <option>Colón</option>
+            <option>Panamá</option>
+        </select>
+    </form>    
+
+
+    <p><label for="descripcion"><h4>Descripción:</h4>:</label><textarea name="descripcion" id="descripcion" rows="6"
+        cols="60"></textarea>
+    </p> 
+
+    <p>
+        <input type="checkbox" name="info" checked="checked" /> Deseo recibir informacion sobre novedades y ofertas.
+    </p>
+
+    <p><input type="checkbox" name="condiciones" /> Declaro haber leído y
+        aceptar las condiciones generales del programa y la normativa sobre
+        protección de datos.
+    </p> 
+
+    <p><input type="submit" value="Enviar" />
+    </p>
+    
+
+</body>
+</html>
